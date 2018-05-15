@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+#main {
+  float: left;
+  width: 53.125em;
+}
+
+#sidebar {
+  float: right;
+  width: 6.25em;
+}
+
+#sequence {
+  width: 37.5em;
+  height: 12.5em;
+}
+
+#legend {
+  padding: 0.625em 0 0 0.1875em;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart rect {
+  stroke: #fff;
+}
+
+
+.label-file {
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+.label-file:hover {
+    color: #25a5c4;
+}
+
+.input-file {
+    display: none;
+}
